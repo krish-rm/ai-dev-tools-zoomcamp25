@@ -1,0 +1,38 @@
+.output-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  border: 1px solid #3e3e42;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.output-panel-header {
+  padding: 0.75rem 1rem;
+  background-color: #252526;
+  border-bottom: 1px solid #3e3e42;
+}
+
+.output-panel-header h3 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.output-content {
+  flex: 1;
+  padding: 1rem;
+  overflow: auto;
+  min-height: 400px;
+}
+
+.output-content pre {
+  margin: 0;
+  color: #cccccc;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
